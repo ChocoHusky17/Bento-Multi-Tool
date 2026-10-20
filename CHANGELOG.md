@@ -2,6 +2,23 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.14.0 — October 20, 2026
+
+### New
+
+- Subtitles: make captions automatically with Whisper, right on this Mac (nothing is uploaded) — Thai, English and 90+ languages, or translate any language to English. Models download once: Fast, Balanced or Best.
+- Edit captions in a list and on a zoomable timeline: fix words, drag to retime, split, merge, add at the playhead, or move them all earlier or later. Undo and redo work here too.
+- Save the video with a subtitle track viewers can turn on or off (no re-encoding), or export SRT and WebVTT files. Import SRT/VTT too; a subtitle file next to the video opens with it.
+- Caption styles: font, size, color, bold/italic, outline, shadow, background box, maximum width, line gap, alignment and position (or drag the caption on the preview). Save your own styles; five starters included.
+- Burn into video: draws the captions into the picture with your style, so they show everywhere — Instagram, TikTok, any player. The preview shows exactly what you’ll get.
+- Overlay presets: save layer sets like your watermark or ticker style, with four starters (watermark, news ticker, 5-second title, rolling credits).
+- Add Text & Images with Bento in Finder: puts your chosen overlay preset on every selected video, or opens the editor. AI apps can add overlays too (bento_add_overlay).
+- Undo and redo in Text & image overlay (⌘Z / ⇧⌘Z, or the arrows at the top). A whole drag, a burst of typing or a slider move undoes in one step; adding, deleting and reordering layers are steps of their own.
+
+### Improved
+
+- Each layer in the overlay list has a ⋯ menu: bring to front or back, duplicate, hide and delete.
+
 ## 0.13.0 — October 20, 2026
 
 ### New
