@@ -2,6 +2,25 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.15.0 — October 20, 2026
+
+### New
+
+- Volume control: point at the speaker for a slider; click it (or press M) to mute. ↑ ↓ change the volume. Bento remembers it.
+- Subtitles and audio: the CC button (or C) turns subtitles on and off, and the ⚙ menu picks the subtitle language, audio track and speed. A subtitle file next to the video shows up too, or add one from the menu.
+- Theatre mode in the Player (T, or the button next to full screen): the settings panel steps aside so the video gets the whole width. Click it again for the default view.
+- Drag the bar above the playlist to make it taller or shorter (the video takes the rest); double-click the bar to reset.
+- Player plays MKV, WebM, AVI, FLV, WMV, MPEG and other formats macOS can’t: Bento repackages them for playback in seconds (nothing re-encoded when the video is H.264/HEVC), keeping every audio and subtitle track. Unusual codecs (VP9, AV1, MPEG-4…) are converted once. Uses the free FFmpeg helper.
+- Pop-up view (P, or the picture-in-picture button): the video in a small window that stays on top of every app, on every desktop. Resize it from any edge (it keeps the video's shape) and drag it anywhere; point at it for the same controls as the main player (subtitles, audio, speed and volume included).
+- Every tool has an ⓘ next to its title: click it for what the tool does, step-by-step how to use it, and tips. It stays open until you close it.
+
+### Improved
+
+- Player has YouTube-style controls over the picture: a progress bar that grows when you point at it (with the time under the pointer), play and next, time, and the title. They fade away while playing.
+- Playlist: × removes a file; select several with ⌘- or ⌃-click, ⇧-click for a range, or drag a box across them, then press ⌫ or Remove. Drag the ≡ handle to reorder.
+- Drop files on the Player while something plays — even in full screen — and they join the playlist and start playing right away. A file that's already in the playlist just plays.
+- Videos whose extra audio tracks used to play all at once now play one at a time, and every track is listed.
+
 ## 0.14.0 — October 20, 2026
 
 ### New
