@@ -2,6 +2,17 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.15.1 — October 20, 2026
+
+### New
+
+- Trim, Crop, Text & image overlay and Subtitles have a Clear button to close the current video. Overlay keeps your layers for the next one; Subtitles asks first if there are captions.
+
+### Improved
+
+- Every file list works the same way now — Player, Compress, Convert, Rotate, Extract audio, Compress PDF, Merge, Download and Inspect: click to select, ⌘/⌃/⇧-click or drag a box for several, × or ⌫ to remove, ⌘A for all, and ≡ to reorder where order matters.
+- Compress and Merge get the same resizable bar as the Player between the preview and the list.
+
 ## 0.15.0 — October 20, 2026
 
 ### New
