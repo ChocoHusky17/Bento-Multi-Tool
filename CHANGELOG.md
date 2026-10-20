@@ -2,6 +2,30 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.16.0 — October 20, 2026
+
+### New
+
+- Convert, Rotate, Extract audio, Compress PDF and Download give each file or link its own settings too. With nothing selected the panel changes them all; select some (⌘- or ⇧-click, or drag a box) to change just those. A line above the settings says which files you're changing, and “Apply to All” makes them match.
+- Each video in Compress has its own settings. The panel changes the video you’re previewing, or every selected video at once (⌘- or ⇧-click, or drag a box): only the option you change is copied, so their other differences stay. “Apply to All Videos” gives the whole list the same settings, and new videos start from the last ones you used.
+- Video to Image: make an animation (GIF, WebP or APNG) from a few seconds, save the frame at the playhead as JPEG, PNG, HEIC, TIFF, WebP or BMP (step frame by frame with ← →), or export a sequence of frames into a folder. The panel explains every option, with a size estimate before you save.
+- Multi-page PDFs and TIFF scans in Inspect show page thumbnails on the left: click one to go there; the page you're on is highlighted as you scroll, and the zoom bar shows “Page 3 of 12”. Page Up / Page Down flip TIFF pages.
+- Inspect shows any text file as text — logs, configs, .env, scripts without an extension, subtitles, code — instead of just an icon. Thai (Windows-874), UTF-8 and UTF-16 are read correctly; ⌘F searches and the zoom bar sizes the text.
+- Inspect opens archives — ZIP, TAR/TGZ, 7z, RAR, ISO and more: browse the folders inside, filter by name, and click any file to preview it (zoom works there too). Extract selected files or everything, or open a file in its own Inspect tab (nested ZIPs included).
+- Inspect zooms PDFs and images: the − % + Fit bar, ⌘= ⌘− ⌘0, pinch, or ⌘/⌥-scroll (the mouse wheel zooms pictures). Click the % for actual size.
+
+### Improved
+
+- While a tool works, its main button says what it's doing with three jumping dots — “Compressing”, “Converting”, “Trimming”, “Making captions”, “Downloading” and so on — with Stop or Cancel right below.
+- Trim, Crop, Text & image overlay, Subtitles, Video to Image, Merge and the Compress preview have the media player's controls: a progress bar you can click or drag, play/pause, volume, time and playback speed. In Crop, Overlay and Subtitles they sit under the picture so they never cover what you're dragging.
+- Compress video explains when a video is already as efficient as the chosen quality (marked ⊜): Bento never makes a file bigger than its original, so raising Quality doesn’t change it — lower Quality or Resolution to save more.
+- PDFs in Inspect scroll smoothly as one long page instead of flipping page by page.
+- Clicking the empty part of a scroll bar in Inspect jumps straight to that spot, and you can keep dragging.
+
+### Fixed
+
+- Tool cards on Home are all the same size at any window width (long names and summaries are shortened, with the full text on hover).
+
 ## 0.15.1 — October 20, 2026
 
 ### New
