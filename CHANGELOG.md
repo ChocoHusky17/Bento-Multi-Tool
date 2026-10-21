@@ -2,6 +2,12 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.16.3 — October 21, 2026
+
+### New
+
+- Every tool on Home has its own little hand-drawn animation: a sketch of what it does sits in the card’s corner, and when you point at a card it plays the story — a video squeezed smaller, film snipped, a page scanned into text. Hand-drawn in light and dark.
+
 ## 0.16.2 — October 21, 2026
 
 ### New
