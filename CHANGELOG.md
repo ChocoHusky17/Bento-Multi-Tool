@@ -2,6 +2,28 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.16.2 — October 21, 2026
+
+### New
+
+- Text from Image: copy the text out of screenshots, photos, scans and PDFs — read on your Mac, in Thai, English, Chinese, Japanese and many more. Capture from Screen (⇧⌘2) grabs text from anywhere and copies it. Keep the layout or get flowing paragraphs, edit it, save it as a text file, translate it (macOS 15), or turn a scan into a searchable PDF you can search and copy from.
+- Convert Images, in a new Images section: turn HEIC, PNG, WebP and other pictures into JPEG, HEIC, AVIF, WebP, PNG or TIFF; set a quality or a size limit (“under 1 MB”); resize by longest side or percent; and remove the location or every detail. Many pictures at once, each with its own settings if you like.
+- PDF Pages text boxes: click the page (or drag for the width) and type, then choose the font — including the PDF’s own — size, bold, italic, alignment, text color, and a background and border that can each be none. Drag to move, double-click to change.
+- Resize and turn drawings, shapes, arrows and text boxes in PDF Pages: pick one with Select, drag a corner to resize (⇧ keeps its shape) or the round handle to turn it (⇧ turns in 15° steps).
+- Change Text matches the PDF’s font: Bento uses the font itself when it’s on your Mac, loads Windows fonts like Angsana New and Cordia New from Microsoft Office, and repairs Thai text that Word saved wrongly (า read as ำ, stray spaces).
+- Edit PDFs in PDF Pages: highlight, underline or strike through text, draw, and add rectangles, ovals and arrows in any color; click a line to retype it (the new words match its font and size); and fill in forms. Click a markup to recolor or delete it, and ⌘Z undoes. Everything is saved as standard PDF markups, so Preview and Acrobat can still change them.
+- PDF Pages has a page view, now the default: thumbnails in a sidebar (drag its edge to make it wider and the thumbnails grow), and every page full size beside it. ↑ ↓ go to the previous or next page, and zoom with a pinch, ⌘+ ⌘− ⌘0, or Fit Width, Fit Page and 50–400%. Switch to the grid any time; its pages can now be much larger (⌘+ ⌘−) and rearrange to fit.
+
+### Improved
+
+- Run a tool again right away: after you close the “done” popup, the files stay in the list ready to go — change a setting or pick another folder and run them again. Files you moved to the Trash leave the list.
+- PDF Pages: press Space to see the selected page larger, and Space again to close it, like Quick Look.
+- Keyboard, everywhere: ← → jump 10 seconds back or ahead in every video (⇧← ⇧→ for 1 second, , and . for one frame), and ↑ ↓ go to the previous or next file in the Player and in every file list. In the Player, the volume moved to ⌥↑ ⌥↓.
+
+### Fixed
+
+- PDF Pages: dragging pages to reorder them works again, with a badge showing how many pages you’re moving.
+
 ## 0.16.1 — October 21, 2026
 
 ### New
