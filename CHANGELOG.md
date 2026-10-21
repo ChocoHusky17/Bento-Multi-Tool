@@ -2,6 +2,37 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.16.1 — October 21, 2026
+
+### New
+
+- Blur Faces: Bento finds the faces in a video (on your Mac) and hides them as they move — blurred, pixelated or with a black box. Leave anyone visible with a switch, and add boxes for number plates, screens or name tags.
+- Reframe & Color: turn a landscape video into 9:16, 1:1 or 4:5 for Reels, TikTok and posts without cutting anything off — a blurred copy (or a color) fills the space. Zoom and drag to frame it, and fix colors with Auto-enhance, brightness, contrast, saturation and warmth.
+- Sound: fix the sound of videos and audio files — louder or quieter, even loudness (Web, Voice, TV), less background noise, fades, mute, or music under the video that dips while people talk (or replaces the sound). The picture is copied untouched.
+- Trim has three modes: Keep a part (now with fade in and out), Cut out — remove ads, mistakes or waiting from the middle, with a preview that skips them — and Split, into parts every few minutes, equal parts, parts under a file size (25 MB for Discord) or at your own marks.
+- HDR videos (most iPhone videos) no longer look washed out after Compress or Convert: Bento converts them to normal colors, with a tip and a switch to keep HDR instead.
+- Player: hold the mouse down on the picture to play at 2× until you let go, like YouTube. A quick click still plays or pauses.
+- Subtitles can translate captions into any language right on your Mac (macOS 15 or later) — for example English speech into Thai captions.
+- Subtitles: use a subtitle track that’s already inside an MKV or MP4, Find & Replace across every caption, and Fix drift — set when two lines are really spoken and everything in between is stretched to fit.
+- Video to Image makes contact sheets: a grid of frames from the whole video with each frame’s time and the video’s details, in one picture.
+- Video to Image can give a video a cover: the frame you’re on, or any picture. Players like Apple TV, VLC, Plex and Infuse show it; nothing is re-encoded.
+- Inspect can edit details: title, caption, date taken or recorded, and place for photos and videos; title, artist and album for audio; title, subject, author and keywords for PDFs. With several files, move all their dates at once (camera on the wrong time zone) or set one date. Always saved as copies.
+- Speed & Reverse: make a video faster (up to 16× timelapse) or slower (down to 0.1×), slow down just one part with a smooth ease in and out like iPhone slo-mo, play it backwards or as a boomerang, and loop it a number of times or to an exact length. The preview plays it the way it will be saved, and voices can keep their natural pitch.
+- PDF Pages: drop PDFs and pictures to see every page in one grid. Drag to reorder, rotate, duplicate or delete pages (⌘Z undoes), then save one PDF (merge), just the selected pages, or split it — every page, every few pages, by ranges like 1-3, 4-, or one PDF per original file.
+- Turn photos and scans into a PDF in PDF Pages: each picture can be exactly its own page, or sit on A4, Letter and other paper. Double-click a picture page to move it, resize it, crop it, turn it or straighten a tilt.
+- When saving from PDF Pages you can add page numbers (style, position, size, start number), lock the PDF with a password, and compress it in the same step.
+- PDF to Images: save PDF pages as PNG, JPEG, HEIC, TIFF or WebP, at screen or print resolution, for all pages, the first, or a list like 1-3, 5.
+- Finder Quick Actions “Combine into PDF with Bento” and “Save PDF Pages as Pictures with Bento”, and new tools for AI apps to combine, split and turn PDFs into pictures.
+- Status dots in the sidebar: while you're on another page, a tool that's working (or the Player while it plays) shows a Pumpkin Spice dot on its icon, and a green dot once it finishes. The green dot goes away when you open the tool. Hover an icon to read its status.
+
+### Improved
+
+- Every video tool opens MKV, WebM, AVI, FLV and other formats macOS can’t read itself — Trim, Crop, Speed, Compress, Merge, Rotate, Overlay, Subtitles and Video to Image. The first time, Bento makes an MP4 copy in the background (usually seconds, nothing re-encoded) and shows its progress; after that the file opens right away. New videos are saved as MP4 next to the original.
+
+### Fixed
+
+- Video controls no longer disappear while you hold the mouse on the progress bar or volume slider.
+
 ## 0.16.0 — October 20, 2026
 
 ### New
