@@ -2,6 +2,20 @@
 
 What changed in each version of Bento. Download the latest from the [Releases page](../../releases/latest).
 
+## 0.17.0 — October 22, 2026
+
+### New
+
+- Workflows, in a new Automate section: make recipes that run files through several tools in a row with one click — like “Phone video for social” (reframe, fix the sound, compress) or “Scan to searchable PDF”. Each step uses the tool’s settings or one of your presets; keep only the final file or every step’s.
+- Watch folders: point a recipe at a folder, and every new file put in it is done by itself while Bento is open. Results go where you choose; originals move into a “Done” folder, and you get a notification.
+- Recipe steps: Compress, Convert, Rotate, Crop to a shape, Split video, Speed, Reframe, Blur Faces, Overlay, Auto captions, Contact sheet, Sound, Extract Audio, Convert Images, Text from Image, Compress PDF, Split PDF, PDF to Images and Remove Details. A step that splits (a video into parts, a PDF into pages) sends each part through the rest of the recipe.
+- AI apps can run your recipes too (bento_run_recipe).
+- PDF Pages: put pictures on a page — a logo, a signature, a photo. Use the Picture tool to choose a file (click, or drag to set the size), or press ⌘V to paste a copied picture. Move, resize and turn it like any markup, and “Remove white background” makes a signature scanned on white paper sit cleanly on the page.
+
+### Fixed
+
+- Keyboard shortcuts in PDF Pages (⌘V, ⌘Z, ⌘D…), Subtitles and Text & Image Overlay (⌘Z, ⇧⌘Z) now work with the Thai keyboard layout and other non-Latin layouts.
+
 ## 0.16.3 — October 21, 2026
 
 ### New
